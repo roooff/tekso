@@ -1,37 +1,79 @@
-# TEKSO (beta)
+# TEKSO
 
 [Български по-долу](#bulgarian)
 
-**A desktop office suite: text, spreadsheets, presentations and PDF in one app. Your files stay on your computer.**
+**One app for the documents you already have. Text, spreadsheets, presentations and PDF. No account, no cloud, no subscription pile.**
 
-## Status
+Office work should not mean a different app, a different bill and a different login for every file type. TEKSO opens the formats people already use (`.docx`, `.xlsx`, `.pptx`, PDF and OpenDocument) in one small desktop app. Your files stay on your computer. If you want an AI assistant to help, it can only propose changes, and you decide. Free during the beta. Later, about 5 to 7 EUR per year.
 
-TEKSO is in **beta**. During the beta the app is **free**. The beta has no fixed end date.
+*Built in Rust. Made by one person in Varna, Bulgaria.*
 
-TEKSO will become paid later, at roughly 5 to 7 EUR per year as an indication. We say so up front to avoid surprises. The price is not final: we will announce it at least 30 days before it starts and nothing will be charged without your explicit consent. An installed beta does not become paid retroactively. Details: [EULA](EULA.md), section 3.
+## Why TEKSO
 
-Like any beta, the app may contain bugs. Keep backups of your important files.
+- **One app, not a bundle of bills.** Text, spreadsheets, presentations and PDF live in one place. One small yearly price later, not separate apps with separate prices.
+- **Your formats, not ours.** Open and save `.docx`, `.xlsx` and `.pptx`. Read `.odt`, `.ods` and `.odp`. Nothing to convert, nobody to ask.
+- **Your files stay yours.** No account. No cloud. No telemetry. Not even automatic update checks. Files leave your computer only if you hand them to an AI of your choice.
+- **AI that asks first.** Every change an AI makes is a proposal. You accept or reject it. Your passwords and PINs never reach the AI.
+- **Serious PDF.** Edit, fill forms, produce PDF/A and accessible PDF/UA (both checked with veraPDF), and sign with a qualified electronic signature (QES/КЕП) on your smart card.
 
-## What it does
+## What it does today
 
-- **Text:** opens and saves `.docx`.
-- **Spreadsheets:** opens and saves `.xlsx`, with formulas and charts.
-- **Presentations:** opens and saves `.pptx`.
-- **PDF:** editing, forms, PDF/A, signing with a qualified electronic signature (QES) on a smart card.
-- **Optional AI:** an AI assistant (for example Claude) can work with your documents through MCP. The AI only **proposes** changes and you accept them. Passwords and PINs are entered only in the app window and are not passed to the AI.
+| You want to | TEKSO gives you |
+|---|---|
+| Write | Text documents: opens and saves `.docx` |
+| Calculate | Spreadsheets: opens and saves `.xlsx`, with formulas and charts |
+| Present | Presentations: opens and saves `.pptx` |
+| Open other formats | Reads OpenDocument: `.odt`, `.ods`, `.odp` |
+| Publish | Publications and books in our own `.opub` and `.obook` formats |
+| Work with PDF | Editing and forms |
+| Archive and accessibility | PDF/A and accessibility tagging (PDF/UA), both validated with veraPDF |
+| Sign | Qualified electronic signature (QES/КЕП) on a smart card |
+| Get help from AI | An assistant such as Claude works with your documents through MCP (the Model Context Protocol, 400+ tools) |
 
-## What we do not promise
+Runs on macOS 12+ and Windows 10+ (64-bit).
 
-- Compatibility with Microsoft Office is best effort. Complex documents may look different.
-- QES: the legal effect of a signature depends on your certificate provider, your card and the validity of your certificate. TEKSO is a tool, not legal advice.
+## AI that asks first
+
+Connect an AI assistant such as Claude and let it work on your documents through MCP. It reads, drafts and edits, but **every change is a proposal**. Nothing is applied until you accept it. Reject it and nothing happens.
+
+- Passwords and PINs go only into TEKSO's own window. They never reach the AI.
+- A standalone `tekso-mcp` server and a `.mcpb` package are available for Claude Desktop.
 - AI suggestions can be wrong. Review them before accepting.
 
-## Privacy
+## Your files stay yours
 
-- No account, no cloud.
-- The app does not send data about you, does not collect usage statistics and does not check for updates on its own.
-- Your files do not leave your computer unless you give them to an AI assistant of your choice. They are then processed by that provider under its own terms.
+- No account.
+- No cloud.
+- No telemetry.
+- No automatic update checks.
+- Files stay on your computer unless you give them to an AI assistant of your choice. They are then processed by that provider under its own terms.
 - Downloading from GitHub is subject to GitHub's terms (for example, your IP address is visible to GitHub). GitHub counts file downloads.
+
+## Coming next
+
+These are plans, not promises, and they have no dates.
+
+- **People:** store people and companies locally and insert their details while you type, with `/` or `@`, like code autocomplete. ID numbers never go to the AI.
+- **Templates and mail merge.**
+- **A deadline calendar.**
+- **Helpers for Bulgarian institution filings:** TEKSO prepares the file, the human signs and submits.
+- **A polished new interface** and the TEKSO visual identity.
+
+## Beta and price, honestly
+
+TEKSO is in **beta**. During the beta the app is **free**, and the beta has no end date.
+
+Later it will cost about **5 to 7 EUR per year**. The price is not final. We will announce it at least **30 days** before it starts, and nothing will be charged without your explicit consent. An installed beta does not become paid retroactively. Details: [EULA](EULA.md), section 3.
+
+Like any beta, the app may contain bugs. Keep backups of your important files. Compatibility with Microsoft Office is best effort, and complex documents may look different. For QES, the legal effect of a signature depends on your certificate provider, your card and the validity of your certificate. TEKSO is a tool, not legal advice.
+
+## Not in the beta (yet)
+
+- No real-time collaboration. This is by design: TEKSO is local.
+- No macros. They are preserved in files, but not run.
+- No live multi-monitor presenting.
+- No screen-reader support yet.
+- Arabic text in PDF/A is limited.
 
 ## Download and install
 
@@ -64,44 +106,88 @@ TEKSO is not open source software. Use is governed by the [EULA](EULA.md). The o
 
 ## Contact
 
-hello@tekso.app
+hello@tekso.app · https://tekso.app
 
 ---
 
 <a id="bulgarian"></a>
 
-# TEKSO (бета), на български
+# TEKSO на български
 
-**Офис пакет за компютъра: текст, таблици, презентации и PDF в едно приложение. Файловете остават на твоя компютър.**
+[English above](#tekso)
 
-## Статус
+**Едно приложение за документите, които вече имаш. Текст, таблици, презентации и PDF. Без акаунт, без облак, без купчина абонаменти.**
 
-TEKSO е в **бета**. По време на бетата приложението е **безплатно**. Бетата няма определена крайна дата.
+Офис работата не бива да значи различно приложение, различна сметка и различен вход за всеки вид файл. TEKSO отваря формати, които хората вече ползват (`.docx`, `.xlsx`, `.pptx`, PDF и OpenDocument), в едно малко приложение за компютъра. Файловете остават на твоя компютър. Ако искаш помощ от AI, той само предлага промени, а ти решаваш. Безплатно по време на бетата. По-късно, около 5 до 7 EUR годишно.
 
-По-късно TEKSO ще стане платено, за ориентир около 5 до 7 EUR годишно. Обявяваме го още сега, за да няма изненади. Цената не е окончателна: ще я обявим най-малко 30 дни преди да се въведе и няма да се таксува нищо без твоето изрично съгласие. Инсталирана бета версия не става платена със задна дата. Подробности: [EULA](EULA.md), т. 3.
+*Написано на Rust. Направено от един човек във Варна.*
 
-Като всяка бета, приложението може да съдържа грешки. Прави си копия на важните файлове.
+## Защо TEKSO
 
-## Какво прави
+- **Едно приложение, не пакет от сметки.** Текст, таблици, презентации и PDF на едно място. По-късно една малка годишна цена, а не отделни приложения с отделни цени.
+- **Твоите формати, не нашите.** Отваряй и записвай `.docx`, `.xlsx` и `.pptx`. Чети `.odt`, `.ods` и `.odp`. Няма какво да се преобразува и никого не трябва да питаш.
+- **Файловете остават твои.** Без акаунт. Без облак. Без телеметрия. Дори без автоматична проверка за нови версии. Файловете напускат компютъра само ако сам ги дадеш на AI по свой избор.
+- **AI, който пита първо.** Всяка промяна от AI е предложение. Ти я приемаш или отхвърляш. Паролите и PIN кодовете ти никога не стигат до AI.
+- **Сериозен PDF.** Редактиране, формуляри, PDF/A и достъпен PDF/UA (и двата проверени с veraPDF), и подпис с квалифициран електронен подпис (КЕП) от смарт карта.
 
-- **Текст:** отваря и записва `.docx`.
-- **Таблици:** отваря и записва `.xlsx`, с формули и диаграми.
-- **Презентации:** отваря и записва `.pptx`.
-- **PDF:** редактиране, формуляри, PDF/A, подписване с квалифициран електронен подпис (КЕП) на карта.
-- **AI по избор:** AI асистент (например Claude) може да работи с документите през MCP. AI само **предлага** промени, ти ги приемаш. Паролите и PIN кодовете се въвеждат само в прозореца на приложението и не се подават към AI.
+## Какво прави днес
 
-## Какво не обещаваме
+| Искаш да | TEKSO ти дава |
+|---|---|
+| Пишеш | Текстови документи: отваря и записва `.docx` |
+| Смяташ | Таблици: отваря и записва `.xlsx`, с формули и диаграми |
+| Представяш | Презентации: отваря и записва `.pptx` |
+| Отвориш други формати | Чете OpenDocument: `.odt`, `.ods`, `.odp` |
+| Издаваш | Публикации и книги в нашите формати `.opub` и `.obook` |
+| Работиш с PDF | Редактиране и формуляри |
+| Архив и достъпност | PDF/A и тагване за достъпност (PDF/UA), и двете валидирани с veraPDF |
+| Подпишеш | Квалифициран електронен подпис (КЕП) от смарт карта |
+| Ползваш AI | Асистент като Claude работи с документите ти през MCP (Model Context Protocol, 400+ инструмента) |
 
-- Съвместимостта с Microsoft Office е по най-добро усилие. Сложни документи може да изглеждат различно.
-- КЕП: правната сила на подписа зависи от твоя удостоверител, картата и валидността на сертификата. TEKSO е инструмент, не правен съвет.
+Работи на macOS 12+ и Windows 10+ (64-битов).
+
+## AI, който пита първо
+
+Свържи AI асистент, например Claude, и му дай да работи по документите ти през MCP. Той чете, чернови и редактира, но **всяка промяна е предложение**. Нищо не се прилага, докато не го приемеш. Отхвърлиш ли го, нищо не се случва.
+
+- Паролите и PIN кодовете се въвеждат само в собствения прозорец на TEKSO. Те никога не стигат до AI.
+- Налични са самостоятелен сървър `tekso-mcp` и пакет `.mcpb` за Claude Desktop.
 - AI предложенията може да са грешни. Прегледай ги, преди да ги приемеш.
 
-## Поверителност
+## Файловете остават твои
 
-- Без акаунт, без облак.
-- Приложението не изпраща данни за теб, не събира статистика за използване и не проверява само за нови версии.
-- Файловете ти не напускат компютъра, освен ако сам не ги дадеш на AI асистент по твой избор. Тогава те се обработват от доставчика му по неговите условия.
+- Без акаунт.
+- Без облак.
+- Без телеметрия.
+- Без автоматична проверка за нови версии.
+- Файловете остават на компютъра ти, освен ако сам не ги дадеш на AI асистент по твой избор. Тогава те се обработват от доставчика му по неговите условия.
 - Изтеглянето от GitHub подлежи на условията на GitHub (например IP адресът ти е видим за GitHub). GitHub брои изтеглянията на файловете.
+
+## Предстои
+
+Това са планове, не обещания, и нямат срокове.
+
+- **Хора:** пази локално хора и фирми и вмъквай данните им, докато пишеш, с `/` или `@`, като автодописване в код. ЕГН и номера на документи никога не отиват към AI.
+- **Шаблони и сливане на кореспонденция.**
+- **Календар на сроковете.**
+- **Помощници за подаване към български институции:** TEKSO подготвя файла, човекът подписва и подава.
+- **Изчистен нов интерфейс** и визуалната идентичност на TEKSO.
+
+## Бета и цена, честно
+
+TEKSO е в **бета**. По време на бетата приложението е **безплатно** и бетата няма крайна дата.
+
+По-късно ще струва около **5 до 7 EUR годишно**. Цената не е окончателна. Ще я обявим най-малко **30 дни** преди да започне и няма да се таксува нищо без твоето изрично съгласие. Инсталирана бета версия не става платена със задна дата. Подробности: [EULA](EULA.md), т. 3.
+
+Като всяка бета, приложението може да съдържа грешки. Прави си копия на важните файлове. Съвместимостта с Microsoft Office е по най-добро усилие и сложни документи може да изглеждат различно. При КЕП правната сила на подписа зависи от твоя удостоверител, картата и валидността на сертификата. TEKSO е инструмент, не правен съвет.
+
+## Няма в бетата (още)
+
+- Няма съвместна работа в реално време. Това е нарочно: TEKSO е локално.
+- Няма макроси. Запазват се във файловете, но не се изпълняват.
+- Няма презентиране на живо на няколко монитора.
+- Още няма поддръжка за екранни четци.
+- Арабският текст в PDF/A е ограничен.
 
 ## Изтегляне и инсталиране
 
@@ -134,4 +220,4 @@ TEKSO не е софтуер с отворен код. Ползването е �
 
 ## Контакт
 
-hello@tekso.app
+hello@tekso.app · https://tekso.app
