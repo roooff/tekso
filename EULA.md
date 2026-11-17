@@ -7,7 +7,7 @@
 
 ## 1. Страни
 
-Лицензодател: [име/фирма, ЕИК, адрес] („ние“). Ти, физическото или юридическото лице, което инсталира или ползва TEKSO („ти“). [ПРОВЕРИ: ако лицензодателят е физическо лице или ЕТ, отговаря лично с цялото си имущество.]
+Лицензодател: Раффи Никогосян, физическо лице, Варна, България, hello@tekso.app („ние“). Ти, физическото или юридическото лице, което инсталира или ползва TEKSO („ти“).
 
 Със стартирането на TEKSO за първи път и избор на „Съгласен съм“ приемаш това споразумение. Инсталирането или ползването без такъв избор също означава приемане, доколкото законът го позволява. [ПРОВЕРИ: приемането само чрез инсталиране е слабо спрямо потребители; препоръчва се изричен избор при първото стартиране.]
 
@@ -97,7 +97,7 @@ TEKSO позволява подписване с квалифициран еле
 
 13.2. Приложимо право: българското, без да се засягат императивните правила за защита на потребителите по т. 13.1.
 
-13.3. Съд: за потребител, който живее в ЕС, важат правилата за подсъдност по закон. Потребителят може да съди в своята държава, а ние можем да го съдим само там. За всички останали, включително бизнес потребители, е компетентен [съд по седалището на лицензодателя].
+13.3. Съд: за потребител, който живее в ЕС, важат правилата за подсъдност по закон. Потребителят може да съди в своята държава, а ние можем да го съдим само там. За всички останали, включително бизнес потребители, е компетентен българският съд в гр. Варна.
 
 13.4. Можеш да подадеш жалба до компетентен орган или да ползваш извънсъдебно решаване на спорове, когато законът го предвижда.
 
@@ -131,7 +131,7 @@ Which language prevails: see section 16.
 
 ## 1. Parties
 
-Licensor: [name/company, registration number, address] ("we"). You, the person or entity that installs or uses TEKSO ("you").
+Licensor: Raffy Nikoghosyan, a natural person, Varna, Bulgaria, hello@tekso.app ("we"). You, the person or entity that installs or uses TEKSO ("you").
 
 By starting TEKSO for the first time and choosing "I agree" you accept this agreement. Installing or using it without such a choice also counts as acceptance, to the extent the law allows.
 
@@ -221,7 +221,7 @@ You may end this agreement at any time by uninstalling TEKSO. We may end it if y
 
 13.2. Governing law: Bulgarian law, without affecting the mandatory consumer protection rules in section 13.1.
 
-13.3. Venue: for a consumer living in the EU, the statutory jurisdiction rules apply. The consumer may sue in their own country, and we may sue the consumer only there. For everyone else, including business users, the competent court is [court at the licensor's seat].
+13.3. Venue: for a consumer living in the EU, the statutory jurisdiction rules apply. The consumer may sue in their own country, and we may sue the consumer only there. For everyone else, including business users, the competent court is the Bulgarian court in Varna.
 
 13.4. You may complain to a competent authority or use out-of-court dispute resolution where the law provides for it.
 
