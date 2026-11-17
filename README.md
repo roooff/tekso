@@ -1,14 +1,16 @@
 # TEKSO (бета)
 
-**Офис пакет за компютъра: текст, таблици, презентации и PDF в едно приложение. Всичко остава на твоя компютър.**
+**Офис пакет за компютъра: текст, таблици, презентации и PDF в едно приложение. Файловете остават на твоя компютър.**
 
 [English below](#english)
 
 ## Статус
 
-TEKSO е в **бета**. По време на бетата приложението е **безплатно**. Бетата не спира да работи на определена дата.
+TEKSO е в **бета**. По време на бетата приложението е **безплатно**. Бетата няма определена крайна дата.
 
-По-късно TEKSO ще стане платено, около 5 до 7 EUR годишно. Обявяваме го още сега, за да няма изненади.
+По-късно TEKSO ще стане платено, за ориентир около 5 до 7 EUR годишно. Обявяваме го още сега, за да няма изненади. Цената не е окончателна: ще я обявим най-малко 30 дни преди да се въведе и няма да се таксува нищо без твоето изрично съгласие. Инсталирана бета версия не става платена със задна дата. Подробности: [EULA](EULA.md), т. 3.
+
+Като всяка бета, приложението може да съдържа грешки. Прави си копия на важните файлове.
 
 ## Какво прави
 
@@ -16,49 +18,102 @@ TEKSO е в **бета**. По време на бетата приложение
 - **Таблици:** отваря и записва `.xlsx`, с формули и диаграми.
 - **Презентации:** отваря и записва `.pptx`.
 - **PDF:** редактиране, формуляри, PDF/A, подписване с квалифициран електронен подпис (КЕП) на карта.
-- **AI по избор:** AI асистент (например Claude) може да работи с документите през MCP. AI само **предлага** промени, ти ги приемаш. Паролите и PIN кодовете се въвеждат само в прозореца на приложението и не стигат до AI.
+- **AI по избор:** AI асистент (например Claude) може да работи с документите през MCP. AI само **предлага** промени, ти ги приемаш. Паролите и PIN кодовете се въвеждат само в прозореца на приложението и не се подават към AI.
+
+## Какво не обещаваме
+
+- Съвместимостта с Microsoft Office е по най-добро усилие. Сложни документи може да изглеждат различно.
+- КЕП: правната сила на подписа зависи от твоя удостоверител, картата и валидността на сертификата. TEKSO е инструмент, не правен съвет.
+- AI предложенията може да са грешни. Прегледай ги, преди да ги приемеш.
 
 ## Поверителност
 
 - Без акаунт, без облак.
-- Приложението не изпраща данни за теб и не брои потребителите.
-- Файловете ти не напускат компютъра, освен ако сам не ги дадеш на AI асистент по твой избор.
+- Приложението не изпраща данни за теб, не събира статистика за използване и не проверява само за нови версии.
+- Файловете ти не напускат компютъра, освен ако сам не ги дадеш на AI асистент по твой избор. Тогава те се обработват от доставчика му по неговите условия.
+- Изтеглянето от GitHub подлежи на условията на GitHub (например IP адресът ти е видим за GitHub). GitHub брои изтеглянията на файловете.
 
-## Изтегляне
+## Изтегляне и инсталиране
 
-Инсталаторите ще бъдат в раздела **Releases** на тази страница (Windows и macOS).
+Инсталаторите (Windows и macOS) са в раздела **Releases** на тази страница.
+
+- Системни изисквания: Windows 10 или по-нов (64-битов), macOS 12 или по-нов.
+- Контролни суми (SHA-256): публикуват се към всяко издание.
+- Инсталаторите на бетата **не са подписани** със сертификат. Windows SmartScreen и macOS Gatekeeper може да покажат предупреждение при първото отваряне.
 
 ## Обратна връзка
 
-Грешки и идеи: раздел **Issues**.
+Грешки и идеи: раздел **Issues**. Не публикувай лични или поверителни документи в публични съобщения.
+
+## Сигурност
+
+Откри ли уязвимост, не я публикувай в Issues. Пиши на [имейл за сигурност].
 
 ## Лиценз
 
-TEKSO не е софтуер с отворен код. Ползването е по [EULA](EULA.md). Компонентите с отворен код, които TEKSO ползва, и техните лицензи са в [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+TEKSO не е софтуер с отворен код. Ползването е по [EULA](EULA.md). Компонентите с отворен код, които TEKSO ползва, и техните лицензи са в [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md). Това хранилище съдържа само инсталатори, документация и лицензни текстове. Изходният код не е публичен.
+
+## Контакт
+
+[имейл]
 
 ---
 
-## English
+<a id="english"></a>
 
-**An office suite for your computer: text, spreadsheets, slides and PDF in one app. Everything stays on your computer.**
+# TEKSO (beta)
 
-### Status
+**A desktop office suite: text, spreadsheets, presentations and PDF in one app. Your files stay on your computer.**
 
-TEKSO is in **beta** and **free** during the beta. The beta does not stop working on a fixed date. Later TEKSO will become paid, about 5 to 7 EUR per year; we say it now so there are no surprises.
+## Status
 
-### What it does
+TEKSO is in **beta**. During the beta the app is **free**. The beta has no fixed end date.
 
-- Text (`.docx`), spreadsheets (`.xlsx`), slides (`.pptx`), PDF editing, forms, PDF/A, and signing with a qualified e-signature smart card.
-- Optional AI: an AI assistant can work with your documents through MCP. The AI only **proposes** changes; you accept them. Passwords and PINs are typed only in the app's own window and never reach the AI.
+TEKSO will become paid later, at roughly 5 to 7 EUR per year as an indication. We say so up front to avoid surprises. The price is not final: we will announce it at least 30 days before it starts and nothing will be charged without your explicit consent. An installed beta does not become paid retroactively. Details: [EULA](EULA.md), section 3.
 
-### Privacy
+Like any beta, the app may contain bugs. Keep backups of your important files.
 
-No account, no cloud, no telemetry. Your files stay on your computer unless you choose to share them with an AI assistant.
+## What it does
 
-### Download
+- **Text:** opens and saves `.docx`.
+- **Spreadsheets:** opens and saves `.xlsx`, with formulas and charts.
+- **Presentations:** opens and saves `.pptx`.
+- **PDF:** editing, forms, PDF/A, signing with a qualified electronic signature (QES) on a smart card.
+- **Optional AI:** an AI assistant (for example Claude) can work with your documents through MCP. The AI only **proposes** changes and you accept them. Passwords and PINs are entered only in the app window and are not passed to the AI.
 
-Installers will be published under **Releases** (Windows and macOS).
+## What we do not promise
 
-### License
+- Compatibility with Microsoft Office is best effort. Complex documents may look different.
+- QES: the legal effect of a signature depends on your certificate provider, your card and the validity of your certificate. TEKSO is a tool, not legal advice.
+- AI suggestions can be wrong. Review them before accepting.
 
-TEKSO is not open source. Use is governed by the [EULA](EULA.md). Third-party open source components and their licenses: [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+## Privacy
+
+- No account, no cloud.
+- The app does not send data about you, does not collect usage statistics and does not check for updates on its own.
+- Your files do not leave your computer unless you give them to an AI assistant of your choice. They are then processed by that provider under its own terms.
+- Downloading from GitHub is subject to GitHub's terms (for example, your IP address is visible to GitHub). GitHub counts file downloads.
+
+## Download and install
+
+Installers (Windows and macOS) are in the **Releases** section of this page.
+
+- System requirements: Windows 10 or later (64-bit), macOS 12 or later.
+- Checksums (SHA-256): published with each release.
+- Beta installers are **not code-signed**. Windows SmartScreen and macOS Gatekeeper may show a warning on first launch.
+
+## Feedback
+
+Bugs and ideas: **Issues** tab. Do not post personal or confidential documents in public messages.
+
+## Security
+
+If you find a vulnerability, do not post it in Issues. Write to [security email].
+
+## License
+
+TEKSO is not open source software. Use is governed by the [EULA](EULA.md). The open-source components TEKSO uses, and their licenses, are listed in [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md). This repository contains only installers, documentation and license texts. The source code is not public.
+
+## Contact
+
+[email]
