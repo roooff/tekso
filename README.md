@@ -47,7 +47,7 @@ TEKSO е в **бета**. По време на бетата приложение
 
 ## Сигурност
 
-Откри ли уязвимост, не я публикувай в Issues. Пиши на [имейл за сигурност].
+Откри ли уязвимост, не я публикувай в Issues. Пиши на security@tekso.app.
 
 ## Лиценз
 
@@ -55,7 +55,7 @@ TEKSO не е софтуер с отворен код. Ползването е �
 
 ## Контакт
 
-[имейл]
+hello@tekso.app
 
 ---
 
@@ -108,7 +108,7 @@ Bugs and ideas: **Issues** tab. Do not post personal or confidential documents i
 
 ## Security
 
-If you find a vulnerability, do not post it in Issues. Write to [security email].
+If you find a vulnerability, do not post it in Issues. Write to security@tekso.app.
 
 ## License
 
@@ -116,4 +116,4 @@ TEKSO is not open source software. Use is governed by the [EULA](EULA.md). The o
 
 ## Contact
 
-[email]
+hello@tekso.app

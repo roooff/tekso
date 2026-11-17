@@ -118,7 +118,7 @@ TEKSO позволява подписване с квалифициран еле
 
 ## 17. Контакт
 
-[имейл]
+hello@tekso.app
 
 ---
 
@@ -242,4 +242,4 @@ This agreement is in Bulgarian and English. In case of a discrepancy the Bulgari
 
 ## 17. Contact
 
-[email]
+hello@tekso.app
