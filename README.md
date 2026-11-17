@@ -41,6 +41,15 @@ Installers (Windows and macOS) are in the **Releases** section of this page.
 - Checksums (SHA-256): published with each release.
 - Beta installers are **not code-signed**. Windows SmartScreen and macOS Gatekeeper may show a warning on first launch.
 
+### First launch of an unsigned beta
+
+Code signing will come with the paid version. Until then, your system asks once:
+
+- **macOS:** open TEKSO; when macOS says it cannot verify the developer, click **Done**. Then open **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to TEKSO. Confirm once more. From then on it opens normally.
+- **Windows:** when the blue **Windows protected your PC** window appears, click **More info**, then **Run anyway**.
+
+Download only from the **Releases** page of this repository and compare the SHA-256 checksum published with the release.
+
 ## Feedback
 
 Bugs and ideas: **Issues** tab. Do not post personal or confidential documents in public messages.
@@ -101,6 +110,15 @@ TEKSO е в **бета**. По време на бетата приложение
 - Системни изисквания: Windows 10 или по-нов (64-битов), macOS 12 или по-нов.
 - Контролни суми (SHA-256): публикуват се към всяко издание.
 - Инсталаторите на бетата **не са подписани** със сертификат. Windows SmartScreen и macOS Gatekeeper може да покажат предупреждение при първото отваряне.
+
+### Първо отваряне на неподписаната бета
+
+Подписът ще дойде с платената версия. Дотогава системата пита веднъж:
+
+- **macOS:** отвори TEKSO; когато macOS каже, че не може да провери разработчика, натисни **Done**. После отвори **System Settings → Privacy & Security**, слез надолу и натисни **Open Anyway** до TEKSO. Потвърди още веднъж. След това се отваря нормално.
+- **Windows:** когато се появи синият прозорец **Windows protected your PC**, натисни **More info**, после **Run anyway**.
+
+Теглете само от раздела **Releases** на това хранилище и сравнете контролната сума SHA-256, публикувана към изданието.
 
 ## Обратна връзка
 
