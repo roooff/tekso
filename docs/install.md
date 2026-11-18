@@ -34,7 +34,6 @@ Get-FileHash $env:USERPROFILE\Downloads\<file-name> -Algorithm SHA256
 **Windows:** two installers are offered.
 
 - The **.exe** installer installs for your user only. It does not need administrator rights.
-- The **.msi** installer installs for the whole computer and needs administrator rights.
 
 ## 4. First launch of an unsigned app
 
