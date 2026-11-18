@@ -6,7 +6,7 @@
 
 Office work should not mean a different app, a different bill and a different login for every file type. TEKSO opens the formats people already use (`.docx`, `.xlsx`, `.pptx`, PDF and OpenDocument) in one small desktop app. Your files stay on your computer. If you want an AI assistant to help, it can only propose changes, and you decide. Free during the beta. Later, about 5 to 7 EUR per year.
 
-*Built in Rust. Made by one person in Varna, Bulgaria.*
+*Made by one person in Varna, Bulgaria.*
 
 ## Why TEKSO
 
@@ -28,7 +28,7 @@ Office work should not mean a different app, a different bill and a different lo
 | Work with PDF | Editing and forms |
 | Archive and accessibility | PDF/A and accessibility tagging (PDF/UA), both validated with veraPDF |
 | Sign | Qualified electronic signature (QES/КЕП) on a smart card |
-| Get help from AI | An assistant such as Claude works with your documents through MCP (the Model Context Protocol, 400+ tools) |
+| Get help from AI | An assistant such as Claude works with your documents through MCP (the Model Context Protocol) |
 
 Runs on macOS 12+ and Windows 10+ (64-bit).
 
@@ -92,6 +92,10 @@ Code signing will come with the paid version. Until then, your system asks once:
 
 Download only from the **Releases** page of this repository and compare the SHA-256 checksum published with the release.
 
+## Documentation
+
+Install, first steps, AI setup, privacy and FAQ: [docs](docs/README.md).
+
 ## Feedback
 
 Bugs and ideas: **Issues** tab. Do not post personal or confidential documents in public messages.
@@ -120,7 +124,7 @@ hello@tekso.app · https://tekso.app
 
 Офис работата не бива да значи различно приложение, различна сметка и различен вход за всеки вид файл. TEKSO отваря формати, които хората вече ползват (`.docx`, `.xlsx`, `.pptx`, PDF и OpenDocument), в едно малко приложение за компютъра. Файловете остават на твоя компютър. Ако искаш помощ от AI, той само предлага промени, а ти решаваш. Безплатно по време на бетата. По-късно, около 5 до 7 EUR годишно.
 
-*Написано на Rust. Направено от един човек във Варна.*
+*Направено от един човек във Варна.*
 
 ## Защо TEKSO
 
@@ -142,7 +146,7 @@ hello@tekso.app · https://tekso.app
 | Работиш с PDF | Редактиране и формуляри |
 | Архив и достъпност | PDF/A и тагване за достъпност (PDF/UA), и двете валидирани с veraPDF |
 | Подпишеш | Квалифициран електронен подпис (КЕП) от смарт карта |
-| Ползваш AI | Асистент като Claude работи с документите ти през MCP (Model Context Protocol, 400+ инструмента) |
+| Ползваш AI | Асистент като Claude работи с документите ти през MCP (Model Context Protocol) |
 
 Работи на macOS 12+ и Windows 10+ (64-битов).
 
@@ -205,6 +209,10 @@ TEKSO е в **бета**. По време на бетата приложение
 - **Windows:** когато се появи синият прозорец **Windows protected your PC**, натисни **More info**, после **Run anyway**.
 
 Теглете само от раздела **Releases** на това хранилище и сравнете контролната сума SHA-256, публикувана към изданието.
+
+## Документация
+
+Инсталиране, първи стъпки, AI, поверителност и въпроси: [docs](docs/bg/README.md).
 
 ## Обратна връзка
 
