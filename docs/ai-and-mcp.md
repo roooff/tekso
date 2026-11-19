@@ -15,14 +15,16 @@ The status bar then shows **Claude: on**. While it is off, every request from an
 
 There are two ways. Choose one.
 
-**A. The `.mcpb` package (files in a folder).** Download the `tekso.mcpb` file from **Releases** and open it in Claude Desktop. The installer asks for two things:
+**A. The `.mcpb` package (files in a folder).** Download `tekso-macos.mcpb` (Mac) or `tekso-win32.mcpb` (Windows) from **Releases** and open it in Claude Desktop. The installer asks for three things:
 
-- **Folder with documents:** the assistant can only reach files inside this folder.
+- **Documents folder:** the assistant can only reach files inside this folder.
 - **Read-only:** on by default. While it is on, the assistant cannot save or change files on disk.
+
+- **Work in the open TEKSO window:** off by default. See B below.
 
 Turn read-only off only if you want the assistant to save changes to files in that folder.
 
-**B. The documents open in TEKSO.** Turn on **Allow Claude access** as above, then add the `tekso-mcp` helper to Claude Desktop with the argument `--attach`. You and the assistant then work on the same open document, with one shared Undo. (Where the helper file is after installation, and how to add it on Windows, is to be confirmed.)
+**B. The documents open in TEKSO.** Install the same `.mcpb` package and turn on **Work in the open TEKSO window** in its settings in Claude Desktop. Then, in TEKSO, turn on **Allow Claude access** as above (and add folders in **Settings > Claude** if Claude should open files itself). You and the assistant then work on the same open document, with one shared Undo, and every change appears as a proposal. TEKSO must be open while you work this way.
 
 ## How proposals work
 

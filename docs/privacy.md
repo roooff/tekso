@@ -25,7 +25,10 @@ TEKSO has no account, no cloud, no telemetry and no automatic update checks.
 3. Delete `*.tekso-versions` files next to documents if you no longer want the history.
 4. Uninstall the app: see [Install](install.md#uninstall).
 
-(Whether the system keeps any small interface preferences outside these folders after uninstalling is to be confirmed.)
+The system also keeps a few small app folders with interface settings (theme, language, window size). Delete them too for a complete removal:
+
+- **macOS:** `~/Library/WebKit/app.tekso`, `~/Library/Caches/app.tekso` and `~/Library/Preferences/app.tekso.plist`.
+- **Windows:** `%LOCALAPPDATA%\app.tekso`.
 
 Your documents are never deleted by uninstalling.
 
