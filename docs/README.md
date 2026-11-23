@@ -7,4 +7,5 @@
 - [AI and MCP](ai-and-mcp.md): turn on AI help and connect Claude Desktop
 - [Privacy](privacy.md): what leaves your computer and how to delete data
 - [FAQ](faq.md)
+- [Release notes: 0.9.0 beta 2](release-notes/0.9.0-beta.2.md)
 - [Release notes: 0.9.0 beta 1](release-notes/0.9.0-beta.1.md)

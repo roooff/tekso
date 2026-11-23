@@ -4,17 +4,37 @@
 
 **One app for the documents you already have. Text, spreadsheets, presentations and PDF. No account, no cloud, no subscription pile.**
 
-Office work should not mean a different app, a different bill and a different login for every file type. TEKSO opens the formats people already use (`.docx`, `.xlsx`, `.pptx`, PDF and OpenDocument) in one small desktop app. Your files stay on your computer. If you want an AI assistant to help, it can only propose changes, and you decide. Free during the beta. Later, about 5 to 7 EUR per year.
+Office work should not mean a different app, a different bill and a different login for every file type. TEKSO opens the formats people already use (Word, Excel, PowerPoint, PDF and OpenDocument files, among others) in one small desktop app. Your files stay on your computer. If you want an AI assistant to help, it can only propose changes, and you decide. Free during the beta. Later, about 5 to 7 EUR per year.
 
 *Made by one person in Varna, Bulgaria.*
 
 ## Why TEKSO
 
 - **One app, not a bundle of bills.** Text, spreadsheets, presentations and PDF live in one place. One small yearly price later, not separate apps with separate prices.
-- **Your formats, not ours.** Open and save `.docx`, `.xlsx` and `.pptx`. Read `.odt`, `.ods` and `.odp`. Nothing to convert, nobody to ask.
+- **Your formats, not ours.** Open and save `.docx`, `.xlsx` and `.pptx`. Open `.odt`, `.ods` and `.odp` too (an `.odt` is saved back as `.odt`). Nothing to convert, nobody to ask. The full list is under "File formats" below.
 - **Your files stay yours.** No account. No cloud. No telemetry. Not even automatic update checks. Files leave your computer only if you hand them to an AI of your choice.
 - **AI that asks first.** Every change an AI makes is a proposal. You accept or reject it. Your passwords and PINs never reach the AI.
 - **Serious PDF.** Edit, fill forms, produce PDF/A and accessible PDF/UA (both checked with veraPDF), and sign with a qualified electronic signature (QES/КЕП) on your smart card.
+
+## File formats
+
+What the app opens and saves, checked against the code of the current beta:
+
+| Kind | Opens | Saves |
+|---|---|---|
+| Text | `.docx`, `.odt`, `.doc`, `.rtf`, `.md`, `.txt`, `.html` | `.docx`; an `.odt` is saved back as `.odt`. A `.doc`, `.rtf`, `.md`, `.txt` or `.html` file is imported and then saved as a new `.docx` |
+| Spreadsheets | `.xlsx` (also `.xlsm`), `.xls`, `.xlsb`, `.ods`, `.csv`, `.tsv` | `.xlsx`. The other formats are imported and saved as `.xlsx` |
+| Presentations | `.pptx`, `.odp` | `.pptx`. An `.odp` is converted to `.pptx` when opened |
+| PDF | `.pdf` | `.pdf` |
+| Publications | `.opub`, `.obook` | the same |
+
+Export (a copy in another format):
+
+- Text: `.txt`, `.md`, `.html`, `.rtf`, `.odt`, `.doc` (limited), `.epub` and PDF (also PDF/A and PDF/X-4).
+- Spreadsheets: `.ods`, `.csv`, `.tsv`, `.html`, XML Spreadsheet 2003, DIF, SYLK, fixed-width text and PDF.
+- Presentations: PDF, SVG, HTML, and an outline as Markdown or plain text. Saving as `.odp` is available to an AI assistant through the `presentation_save_as` tool, not from the File menu.
+
+Not supported: opening `.epub` (export only). SYLK, DIF and XML 2003 are export only, and `.dbf` import is available only to an AI assistant, not from **Open**. Files from other programs can lose features when they are converted, and the app lists what was lost. Compatibility is best effort.
 
 ## What it does today
 
@@ -23,7 +43,7 @@ Office work should not mean a different app, a different bill and a different lo
 | Write | Text documents: opens and saves `.docx` |
 | Calculate | Spreadsheets: opens and saves `.xlsx`, with formulas and charts |
 | Present | Presentations: opens and saves `.pptx` |
-| Open other formats | Reads OpenDocument: `.odt`, `.ods`, `.odp` |
+| Open other formats | OpenDocument (`.odt`, `.ods`, `.odp`), older Word and Excel files and plain text. See "File formats" |
 | Publish | Publications and books in our own `.opub` and `.obook` formats |
 | Work with PDF | Editing and forms |
 | Archive and accessibility | PDF/A and accessibility tagging (PDF/UA), both validated with veraPDF |
@@ -122,17 +142,37 @@ hello@tekso.app · https://tekso.app
 
 **Едно приложение за документите, които вече имаш. Текст, таблици, презентации и PDF. Без акаунт, без облак, без купчина абонаменти.**
 
-Офис работата не бива да значи различно приложение, различна сметка и различен вход за всеки вид файл. TEKSO отваря формати, които хората вече ползват (`.docx`, `.xlsx`, `.pptx`, PDF и OpenDocument), в едно малко приложение за компютъра. Файловете остават на твоя компютър. Ако искаш помощ от AI, той само предлага промени, а ти решаваш. Безплатно по време на бетата. По-късно, около 5 до 7 EUR годишно.
+Офис работата не бива да значи различно приложение, различна сметка и различен вход за всеки вид файл. TEKSO отваря формати, които хората вече ползват (файлове на Word, Excel, PowerPoint, PDF и OpenDocument, и други), в едно малко приложение за компютъра. Файловете остават на твоя компютър. Ако искаш помощ от AI, той само предлага промени, а ти решаваш. Безплатно по време на бетата. По-късно, около 5 до 7 EUR годишно.
 
 *Направено от един човек във Варна.*
 
 ## Защо TEKSO
 
 - **Едно приложение, не пакет от сметки.** Текст, таблици, презентации и PDF на едно място. По-късно една малка годишна цена, а не отделни приложения с отделни цени.
-- **Твоите формати, не нашите.** Отваряй и записвай `.docx`, `.xlsx` и `.pptx`. Чети `.odt`, `.ods` и `.odp`. Няма какво да се преобразува и никого не трябва да питаш.
+- **Твоите формати, не нашите.** Отваряй и записвай `.docx`, `.xlsx` и `.pptx`. Отваряй и `.odt`, `.ods` и `.odp` (`.odt` се записва обратно като `.odt`). Няма какво да се преобразува и никого не трябва да питаш. Пълният списък е в «Файлови формати» по-долу.
 - **Файловете остават твои.** Без акаунт. Без облак. Без телеметрия. Дори без автоматична проверка за нови версии. Файловете напускат компютъра само ако сам ги дадеш на AI по свой избор.
 - **AI, който пита първо.** Всяка промяна от AI е предложение. Ти я приемаш или отхвърляш. Паролите и PIN кодовете ти никога не стигат до AI.
 - **Сериозен PDF.** Редактиране, формуляри, PDF/A и достъпен PDF/UA (и двата проверени с veraPDF), и подпис с квалифициран електронен подпис (КЕП) от смарт карта.
+
+## Файлови формати
+
+Какво приложението отваря и записва, сверено с кода на текущата бета:
+
+| Вид | Отваря | Записва |
+|---|---|---|
+| Текст | `.docx`, `.odt`, `.doc`, `.rtf`, `.md`, `.txt`, `.html` | `.docx`; `.odt` се записва обратно като `.odt`. Файл `.doc`, `.rtf`, `.md`, `.txt` или `.html` се внася и после се записва като нов `.docx` |
+| Таблици | `.xlsx` (и `.xlsm`), `.xls`, `.xlsb`, `.ods`, `.csv`, `.tsv` | `.xlsx`. Останалите формати се внасят и се записват като `.xlsx` |
+| Презентации | `.pptx`, `.odp` | `.pptx`. Файл `.odp` се превръща в `.pptx` при отварянето |
+| PDF | `.pdf` | `.pdf` |
+| Публикации | `.opub`, `.obook` | същите |
+
+Износ (копие в друг формат):
+
+- Текст: `.txt`, `.md`, `.html`, `.rtf`, `.odt`, `.doc` (ограничен), `.epub` и PDF (също PDF/A и PDF/X-4).
+- Таблици: `.ods`, `.csv`, `.tsv`, `.html`, XML таблица 2003, DIF, SYLK, текст с фиксирана ширина и PDF.
+- Презентации: PDF, SVG, HTML и контур като Markdown или чист текст. Запис като `.odp` има за AI асистент през инструмента `presentation_save_as`, не от менюто «Файл».
+
+Не се поддържа: отваряне на `.epub` (само износ). SYLK, DIF и XML 2003 са само износ, а внос на `.dbf` има само за AI асистент, не от **Open**. Файловете от други програми може да загубят възможности при превръщането, а приложението показва какво е загубено. Съвместимостта е по най-добро усилие.
 
 ## Какво прави днес
 
@@ -141,7 +181,7 @@ hello@tekso.app · https://tekso.app
 | Пишеш | Текстови документи: отваря и записва `.docx` |
 | Смяташ | Таблици: отваря и записва `.xlsx`, с формули и диаграми |
 | Представяш | Презентации: отваря и записва `.pptx` |
-| Отвориш други формати | Чете OpenDocument: `.odt`, `.ods`, `.odp` |
+| Отвориш други формати | OpenDocument (`.odt`, `.ods`, `.odp`), по-стари файлове на Word и Excel и чист текст. Виж «Файлови формати» |
 | Издаваш | Публикации и книги в нашите формати `.opub` и `.obook` |
 | Работиш с PDF | Редактиране и формуляри |
 | Архив и достъпност | PDF/A и тагване за достъпност (PDF/UA), и двете валидирани с veraPDF |

@@ -24,11 +24,11 @@ To come back to this screen later, use **File → Home screen**.
 | PDF | **Open PDF…** |
 | A file TEKSO cannot recognise | **File → Open as…** and pick a mode |
 
-OpenDocument files (`.odt`, `.ods`, `.odp`) can be read. Each document opens in its own tab.
+OpenDocument files (`.odt`, `.ods`, `.odp`) open too, and so do `.doc`, `.rtf`, `.md`, `.txt`, `.html`, `.xls`, `.xlsb`, `.csv` and `.tsv`. Each document opens in its own tab.
 
 ## Save
 
-Press **Save** (**File → Save**, ⌘S on macOS, Ctrl+S on Windows). Text is saved as `.docx`, spreadsheets as `.xlsx` and presentations as `.pptx`. Text can also be exported with **Export as PDF**.
+Press **Save** (**File → Save**, ⌘S on macOS, Ctrl+S on Windows). Text is saved as `.docx` (an `.odt` stays `.odt`), spreadsheets as `.xlsx` and presentations as `.pptx`; a file that was imported from another format is saved in the matching one of these. Other formats, such as `.ods`, `.csv`, `.rtf` and `.epub`, are copies made with **Export…**. Text can also be exported with **Export as PDF**.
 
 - **Version history:** the **Versions…** command saves named versions of a text document. They are stored in a file called `<document>.tekso-versions` next to the document. If you move the document, move that file too.
 - **Recovery:** every 8 seconds TEKSO keeps a safety copy of changed documents. After an interruption, the start screen offers **Review and restore**. Your original files are not touched.

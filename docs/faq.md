@@ -12,7 +12,7 @@ TEKSO never contacts the internet by itself. That is a privacy choice. Download 
 Free during the beta, which has no end date. Later about 5 to 7 EUR per year. The price is not final. It will be announced at least 30 days before it starts, nothing is charged without your consent, and an installed beta does not become paid retroactively. See [EULA](../EULA.md), section 3.
 
 **Does it work with Microsoft Office files?**
-It opens and saves `.docx`, `.xlsx` and `.pptx`, and reads `.odt`, `.ods` and `.odp`. Compatibility is best effort. Complex documents may look different in other programs. Keep backups of important files.
+It opens and saves `.docx`, `.xlsx` and `.pptx`. It also opens `.odt` (saved back as `.odt`), `.ods`, `.odp`, `.doc`, `.rtf`, `.md`, `.txt`, `.html`, `.xls`, `.xlsb`, `.csv` and `.tsv`; those other formats are imported and saved as `.docx`, `.xlsx` or `.pptx`. It cannot open `.epub`. Compatibility is best effort. Complex documents may look different in other programs. Keep backups of important files.
 
 **Is my QES signature legally valid?**
 It depends on your certificate provider, your card and the validity of your certificate. TEKSO is a tool, not legal advice.
