@@ -2,7 +2,7 @@
 
 [Български](bg/ai-and-mcp.md) · [Docs index](README.md)
 
-MCP (Model Context Protocol) is an open standard that lets an AI assistant such as Claude work with tools on your computer. With TEKSO it means the assistant can read your documents and suggest edits. The AI part is **off by default**. TEKSO works fully without it.
+MCP (Model Context Protocol) is an open standard that lets an AI assistant such as Claude work with tools on your computer. With TEKSO it means the assistant can read and edit your documents. The AI part is **off by default**. TEKSO works fully without it.
 
 ## Turn it on in TEKSO
 
@@ -24,20 +24,20 @@ There are two ways. Choose one.
 
 Turn read-only off only if you want the assistant to save changes to files in that folder.
 
-**B. The documents open in TEKSO.** Install the same `.mcpb` package and turn on **Work in the open TEKSO window** in its settings in Claude Desktop. Then, in TEKSO, turn on **Allow Claude access** as above (and add folders in **Settings > Claude** if Claude should open files itself). You and the assistant then work on the same open document, with one shared Undo, and every change appears as a proposal. TEKSO must be open while you work this way.
+**B. The documents open in TEKSO.** Install the same `.mcpb` package and turn on **Work in the open TEKSO window** in its settings in Claude Desktop. Then, in TEKSO, turn on **Allow Claude access** as above (and add folders in **Settings > Claude** if Claude should open files itself). You and the assistant then work on the same open document, with one shared Undo. Its changes are applied directly and it can save them; the package's Read only setting does not apply here, so turn on **Claude read-only (cannot write files)** in the Claude panel if it must not save. TEKSO must be open while you work this way.
 
-## How proposals work
+## What the assistant can change
 
-The assistant can read and draft, but every change is a proposal. Nothing is applied until you accept it. If you reject a proposal, nothing happens. Always review before accepting: AI suggestions can be wrong.
+When it is allowed to write, the assistant changes documents directly; changes are not guaranteed to be shown as proposals first. Always check what it changed: AI can be wrong. Keep a copy of important files.
 
 In the Claude panel you can:
 
 - see who is connected and a **Log of calls on this document**;
 - turn on **Claude read-only (cannot write files)**;
 - click **Stop Claude** to turn access off at once;
-- click **Undo everything from Claude** or **Revert everything** to go back.
+- click **Undo everything from Claude** or **Revert everything** to go back. These change the open document; a file already saved stays as saved until you save again.
 
-In text documents the proposals appear as tracked changes. Use **Accept** or **Reject** in the **Review** panel, one by one or all at once.
+In text documents you can ask the assistant to make its edits as tracked changes. Then use **Accept** or **Reject** in the **Review** panel, one by one or all at once.
 
 ## What never reaches the AI
 

@@ -51,7 +51,7 @@ TEKSO uses open-source components. They are subject to their own licenses (see T
 
 6.2. You may optionally connect an AI assistant (for example Claude) through MCP. This is your choice. The content you give it is processed by its provider under its terms and privacy policy. We do not control that provider and are not responsible for its service.
 
-6.3. The AI only proposes changes; you review and accept them. AI output may be inaccurate, incomplete or unsuitable. It is your responsibility to check it before relying on it. Do not use it for legal, medical or financial decisions without verification.
+6.3. The AI can read and, if you allow it, change your documents. Changes are not guaranteed to be shown as proposals first. Review them. AI output may be inaccurate, incomplete or unsuitable. It is your responsibility to check it before relying on it. Do not use it for legal, medical or financial decisions without verification.
 
 6.4. Passwords and PINs are entered only in the TEKSO window and are not passed to the AI assistant.
 
@@ -175,7 +175,7 @@ TEKSO ползва компоненти с отворен код. Те подл�
 
 6.2. Можеш по желание да свържеш AI асистент (например Claude) през MCP. Това е твой избор. Съдържанието, което му даваш, се обработва от неговия доставчик по неговите условия и политика за поверителност. Ние не контролираме този доставчик и не отговаряме за услугата му.
 
-6.3. AI само предлага промени, а ти ги преглеждаш и приемаш. Изходът на AI може да е неточен, непълен или неподходящ. Твоя е отговорността да го провериш, преди да разчиташ на него. Не го ползвай за правни, медицински или финансови решения без проверка.
+6.3. AI може да чете и, ако му разрешиш, да променя документите ти. Не е гарантирано, че промените първо се показват като предложения. Преглеждай ги. Изходът на AI може да е неточен, непълен или неподходящ. Твоя е отговорността да го провериш, преди да разчиташ на него. Не го ползвай за правни, медицински или финансови решения без проверка.
 
 6.4. Паролите и PIN кодовете се въвеждат само в прозореца на TEKSO и не се предават към AI асистента.
 
