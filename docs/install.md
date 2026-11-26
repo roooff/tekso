@@ -4,8 +4,6 @@
 
 TEKSO 0.9.1 Preview runs on macOS 12 or later (Apple Silicon; an Intel build is not available yet) and Windows 10 or later (64-bit).
 
-**Windows:** the 0.9.1 installer is not published yet. Windows users can use [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2) in the meantime.
-
 ## 1. Download
 
 1. Open the **Releases** page of this repository.

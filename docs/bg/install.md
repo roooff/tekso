@@ -4,8 +4,6 @@
 
 TEKSO 0.9.1 (предварителна версия) работи на macOS 12 или по-нов (Apple Silicon; версия за Intel още няма) и Windows 10 или по-нов (64-битов).
 
-**Windows:** инсталаторът за 0.9.1 още не е публикуван. Дотогава за Windows е [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2).
-
 ## 1. Изтегляне
 
 1. Отвори страницата **Releases** на това хранилище.

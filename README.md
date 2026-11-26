@@ -99,8 +99,6 @@ Like any beta, the app may contain bugs. Keep backups of your important files. C
 
 Installers (Windows and macOS) are in the **Releases** section of this page.
 
-**Windows:** the 0.9.1 installer is not published yet. Windows users can use [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2) in the meantime.
-
 - System requirements: Windows 10 or later (64-bit), macOS 12 or later.
 - Checksums (SHA-256): published with each release.
 - Beta installers are **not code-signed**. Windows SmartScreen and macOS Gatekeeper may show a warning on first launch.
@@ -238,8 +236,6 @@ TEKSO е в **бета**. По време на бетата приложение
 ## Изтегляне и инсталиране
 
 Инсталаторите (Windows и macOS) са в раздела **Releases** на тази страница.
-
-**Windows:** инсталаторът за 0.9.1 още не е публикуван. Дотогава за Windows е [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2).
 
 - Системни изисквания: Windows 10 или по-нов (64-битов), macOS 12 или по-нов.
 - Контролни суми (SHA-256): публикуват се към всяко издание.
