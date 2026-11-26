@@ -12,7 +12,7 @@ Office work should not mean a different app, a different bill and a different lo
 
 - **One app, not a bundle of bills.** Text, spreadsheets, presentations and PDF live in one place. One small yearly price later, not separate apps with separate prices.
 - **Your formats, not ours.** Open and save `.docx`, `.xlsx` and `.pptx`. Open `.odt`, `.ods` and `.odp` too (an `.odt` is saved back as `.odt`). Nothing to convert, nobody to ask. The full list is under "File formats" below.
-- **Your files stay yours.** No account. No cloud. No telemetry. Not even automatic update checks. Files leave your computer only if you hand them to an AI of your choice.
+- **Your files stay yours.** No account. No cloud. No telemetry. Files leave your computer only if you hand them to an AI of your choice. The app asks GitHub for new versions, and you can turn that off.
 - **AI that asks first.** Every change an AI makes is a proposal. You accept or reject it. Your passwords and PINs never reach the AI.
 - **Serious PDF.** Edit, fill forms, produce PDF/A and accessible PDF/UA (both checked with veraPDF), and sign with a qualified electronic signature (QES/КЕП) on your smart card.
 
@@ -65,7 +65,7 @@ Connect an AI assistant such as Claude and let it work on your documents through
 - No account.
 - No cloud.
 - No telemetry.
-- No automatic update checks.
+- The app asks GitHub whether there is a newer version (no documents or personal data are sent; GitHub sees your IP address). You can turn this off.
 - Files stay on your computer unless you give them to an AI assistant of your choice. They are then processed by that provider under its own terms.
 - Downloading from GitHub is subject to GitHub's terms (for example, your IP address is visible to GitHub). GitHub counts file downloads.
 
@@ -98,6 +98,8 @@ Like any beta, the app may contain bugs. Keep backups of your important files. C
 ## Download and install
 
 Installers (Windows and macOS) are in the **Releases** section of this page.
+
+**Windows:** the 0.9.1 installer is not published yet. Windows users can use [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2) in the meantime.
 
 - System requirements: Windows 10 or later (64-bit), macOS 12 or later.
 - Checksums (SHA-256): published with each release.
@@ -150,7 +152,7 @@ hello@tekso.app · https://tekso.app
 
 - **Едно приложение, не пакет от сметки.** Текст, таблици, презентации и PDF на едно място. По-късно една малка годишна цена, а не отделни приложения с отделни цени.
 - **Твоите формати, не нашите.** Отваряй и записвай `.docx`, `.xlsx` и `.pptx`. Отваряй и `.odt`, `.ods` и `.odp` (`.odt` се записва обратно като `.odt`). Няма какво да се преобразува и никого не трябва да питаш. Пълният списък е в «Файлови формати» по-долу.
-- **Файловете остават твои.** Без акаунт. Без облак. Без телеметрия. Дори без автоматична проверка за нови версии. Файловете напускат компютъра само ако сам ги дадеш на AI по свой избор.
+- **Файловете остават твои.** Без акаунт. Без облак. Без телеметрия. Файловете напускат компютъра само ако сам ги дадеш на AI по свой избор. Приложението пита GitHub за нови версии и това може да се изключи.
 - **AI, който пита първо.** Всяка промяна от AI е предложение. Ти я приемаш или отхвърляш. Паролите и PIN кодовете ти никога не стигат до AI.
 - **Сериозен PDF.** Редактиране, формуляри, PDF/A и достъпен PDF/UA (и двата проверени с veraPDF), и подпис с квалифициран електронен подпис (КЕП) от смарт карта.
 
@@ -203,7 +205,7 @@ hello@tekso.app · https://tekso.app
 - Без акаунт.
 - Без облак.
 - Без телеметрия.
-- Без автоматична проверка за нови версии.
+- Приложението пита GitHub има ли по-нова версия (не се пращат документи и лични данни; GitHub вижда IP адреса ти). Можеш да го изключиш.
 - Файловете остават на компютъра ти, освен ако сам не ги дадеш на AI асистент по твой избор. Тогава те се обработват от доставчика му по неговите условия.
 - Изтеглянето от GitHub подлежи на условията на GitHub (например IP адресът ти е видим за GitHub). GitHub брои изтеглянията на файловете.
 
@@ -236,6 +238,8 @@ TEKSO е в **бета**. По време на бетата приложение
 ## Изтегляне и инсталиране
 
 Инсталаторите (Windows и macOS) са в раздела **Releases** на тази страница.
+
+**Windows:** инсталаторът за 0.9.1 още не е публикуван. Дотогава за Windows е [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2).
 
 - Системни изисквания: Windows 10 или по-нов (64-битов), macOS 12 или по-нов.
 - Контролни суми (SHA-256): публикуват се към всяко издание.

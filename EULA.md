@@ -47,7 +47,7 @@ TEKSO uses open-source components. They are subject to their own licenses (see T
 
 ## 6. Data, privacy and AI
 
-6.1. TEKSO works locally, with no account and no cloud. We do not receive your files or data about you and do not collect usage data. The app does not check for updates on its own.
+6.1. TEKSO works locally, with no account and no cloud. We do not receive your files or data about you and do not collect usage data. The app may check GitHub for a newer version and download it; it sends no files or data about you, although GitHub, as with any web request, sees your IP address. A new version is installed only when you choose to. You can turn the automatic check off.
 
 6.2. You may optionally connect an AI assistant (for example Claude) through MCP. This is your choice. The content you give it is processed by its provider under its terms and privacy policy. We do not control that provider and are not responsible for its service.
 
@@ -171,7 +171,7 @@ TEKSO ползва компоненти с отворен код. Те подл�
 
 ## 6. Данни, поверителност и AI
 
-6.1. TEKSO работи локално, без акаунт и без облак. Не получаваме файловете ти или данни за теб и не събираме данни за използването. Приложението не проверява само за нови версии.
+6.1. TEKSO работи локално, без акаунт и без облак. Не получаваме файловете ти или данни за теб и не събираме данни за използването. Приложението може да проверява в GitHub за по-нова версия и да я сваля; не праща файлове и данни за теб, макар че GitHub, както при всяка заявка към сайт, вижда IP адреса ти. Нова версия се инсталира само когато ти избереш. Автоматичната проверка може да се изключи.
 
 6.2. Можеш по желание да свържеш AI асистент (например Claude) през MCP. Това е твой избор. Съдържанието, което му даваш, се обработва от неговия доставчик по неговите условия и политика за поверителност. Ние не контролираме този доставчик и не отговаряме за услугата му.
 

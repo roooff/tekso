@@ -4,12 +4,15 @@
 
 ## What leaves your computer
 
-Nothing, with two exceptions.
+Your documents do not leave it. There are three cases in which something goes over the network.
 
 1. **What you give to an AI.** If you connect an AI assistant, the documents you let it read go to that provider and are handled under its terms. See [AI and MCP](ai-and-mcp.md).
 2. **GitHub download logs.** When you download TEKSO from this page, GitHub sees your request (for example your IP address) and counts downloads, under GitHub's terms.
+3. **Check for new versions.** At start the app asks GitHub for a small file with the latest version number (`https://github.com/roooff/tekso/releases/download/updates/latest.json`) and, if there is a newer version, downloads it from the same releases. No documents, file names, settings, account or identifier are sent, and the address carries no information about you. As with any web request, GitHub (and the file server it redirects to) sees your IP address, the time and the name and version of the update component, under GitHub's terms. GitHub counts these downloads.
 
-TEKSO has no account, no cloud, no telemetry and no automatic update checks.
+**Turning the check off:** untick **Check for new versions automatically** on the **Getting started** card, or switch it off in **Settings → General**. On the very first start no check is made, so you can turn it off first. When off, TEKSO checks only if you choose **Check for updates** in the menu. Without a network the check fails silently.
+
+TEKSO has no account, no cloud and no telemetry.
 
 ## Where your data lives
 

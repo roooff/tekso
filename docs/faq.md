@@ -5,8 +5,8 @@
 **Why is the installer unsigned?**
 Code signing certificates cost money and the beta is free. Signing will come with the paid version. Until then your system asks once on first launch. See [Install](install.md#4-first-launch-of-an-unsigned-app) and verify the SHA-256 of your download.
 
-**Why is there no automatic update?**
-TEKSO never contacts the internet by itself. That is a privacy choice. Download new versions from **Releases**.
+**Does TEKSO update itself?**
+It checks GitHub for a newer version at start, downloads it and installs it only when you click. You can turn the check off. See [Install](install.md#update).
 
 **How much will it cost?**
 Free during the beta, which has no end date. Later about 5 to 7 EUR per year. The price is not final. It will be announced at least 30 days before it starts, nothing is charged without your consent, and an installed beta does not become paid retroactively. See [EULA](../EULA.md), section 3.
@@ -18,7 +18,7 @@ It opens and saves `.docx`, `.xlsx` and `.pptx`. It also opens `.odt` (saved bac
 It depends on your certificate provider, your card and the validity of your certificate. TEKSO is a tool, not legal advice.
 
 **Is my data sent anywhere?**
-No. See [Privacy](privacy.md).
+Your documents are not. The app asks GitHub whether there is a newer version, which you can turn off. See [Privacy](privacy.md).
 
 **Known limits of the beta**
 - No real-time collaboration. This is by design: TEKSO is local.
@@ -26,6 +26,7 @@ No. See [Privacy](privacy.md).
 - No live multi-monitor presenting.
 - No screen-reader support yet.
 - Arabic text in PDF/A is limited.
+- OCR was measured on synthetic pages only, not on real scans. See [OCR accuracy and limits](ocr.md).
 - macOS: Apple Silicon only for now.
 
 **I found a bug.**

@@ -2,7 +2,9 @@
 
 [Български](bg/install.md) · [Docs index](README.md)
 
-TEKSO 0.9.0 beta runs on macOS 12 or later (Apple Silicon; an Intel build is not available yet) and Windows 10 or later (64-bit).
+TEKSO 0.9.1 Preview runs on macOS 12 or later (Apple Silicon; an Intel build is not available yet) and Windows 10 or later (64-bit).
+
+**Windows:** the 0.9.1 installer is not published yet. Windows users can use [0.9.0 beta 2](https://github.com/roooff/tekso/releases/tag/v0.9.0-beta.2) in the meantime.
 
 ## 1. Download
 
@@ -57,7 +59,14 @@ On first start TEKSO shows a short license agreement. Click **I agree** to conti
 
 ## Update
 
-TEKSO never checks for updates by itself. To update, download the new version from **Releases**, verify it and install it over the old one. Your files and settings are kept.
+At start TEKSO checks GitHub for a newer version (see [Privacy](privacy.md#what-leaves-your-computer); you can turn this off). If there is one, it is downloaded in the background and a small panel offers **Restart and install**. Nothing is installed until you click it, and unsaved documents must be saved first. You can also choose **Check for updates** in the menu.
+
+The downloaded package is checked against TEKSO's update signature before it is installed. This signature is not an Apple or Microsoft code signature: the app is still unsigned in their sense.
+
+- **macOS:** TEKSO can only update itself when it runs from a normal folder such as **Applications**. If it runs from the disk image or macOS runs it from a temporary copy, move it to **Applications** with Finder and open it again.
+- **Windows:** the installer runs with a progress bar and reopens TEKSO. Windows may ask again whether to run an unrecognised app.
+
+TEKSO 0.9.0 beta 1 and beta 2 have no updater: update them once by hand. To update by hand at any time, download the new version from **Releases**, verify it and install it over the old one. Your files and settings are kept.
 
 ## Uninstall
 
