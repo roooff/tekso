@@ -21,6 +21,7 @@ There are two ways. Choose one.
 - **Read-only:** on by default. While it is on, the assistant cannot save or change files on disk.
 
 - **Work in the open TEKSO window:** off by default. See B below.
+- **Compact tools:** off by default. When on, Claude sees 47 core tools for text, sheets, presentations, PDF and forms. Charts, tracked changes, OCR, redaction, pictures, styles and mail merge need it off. It saves context; it is not a security restriction.
 
 Turn read-only off only if you want the assistant to save changes to files in that folder.
 
@@ -39,12 +40,14 @@ In the Claude panel you can:
 
 In text documents you can ask the assistant to make its edits as tracked changes. Then use **Accept** or **Reject** in the **Review** panel, one by one or all at once.
 
-## What never reaches the AI
+## Passwords, PINs and your card
 
-- Passwords and PINs. They are typed only into TEKSO's own window. The assistant only learns whether it worked.
-- Your smart card and its keys. The assistant cannot sign for you. Signing is always your action.
+- When an action the assistant asks for needs a password, you type it into TEKSO's own window. TEKSO does not send it to the AI. The assistant only learns the outcome, for example done, wrong password or cancelled. The standalone server without the app has no such window and refuses the action.
+- The assistant cannot sign for you and has no tool that takes your card PIN. Signing is always your action.
+- **Fixed in 0.9.2:** in 0.9.1 the assistant could, through the text script tool (`text_script`), set, remove or check the password of a protected section in an `.odt` document with a password it supplied itself, without TEKSO asking you. Update to 0.9.2 or later.
+- TEKSO cannot protect a password you write in the chat with the assistant, or one that is written in a document or file the assistant can read. Do not give passwords to the assistant.
 
-Everything else in a document you open to the assistant is sent to your AI provider and handled under its terms. Only share what you are comfortable sharing.
+What the assistant reads from a document you open to it, including a password-protected file after you have unlocked it, is sent to your AI provider and handled under its terms. Only share what you are comfortable sharing.
 
 ## Troubleshooting
 
@@ -52,4 +55,4 @@ Everything else in a document you open to the assistant is sent to your AI provi
 - **It cannot save.** Read-only is on. Turn it off, or in the panel under **Claude read-only (cannot write files)**.
 - **Connection lost after restarting TEKSO.** Restart the connection in Claude Desktop (option B).
 - **Changed folder.** The allowed folder is chosen when the package is installed. To change it, reinstall the package and pick another folder.
-- **A password or PIN window appears.** This is expected. Enter it there yourself.
+- **A password window appears.** This is expected. Enter the password there yourself, not in the chat.

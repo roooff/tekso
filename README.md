@@ -13,7 +13,7 @@ Office work should not mean a different app, a different bill and a different lo
 - **One app, not a bundle of bills.** Text, spreadsheets, presentations and PDF live in one place. One small yearly price later, not separate apps with separate prices.
 - **Your formats, not ours.** Open and save `.docx`, `.xlsx` and `.pptx`. Open `.odt`, `.ods` and `.odp` too (an `.odt` is saved back as `.odt`). Nothing to convert, nobody to ask. The full list is under "File formats" below.
 - **Your files stay yours.** No account. No cloud. No telemetry. Files leave your computer only if you hand them to an AI of your choice. The app asks GitHub for new versions, and you can turn that off.
-- **AI on your terms.** AI is optional and off until you turn it on. Passwords and PINs never reach the AI.
+- **AI on your terms.** AI is optional and off until you turn it on. A password or PIN you type into TEKSO's own window is not sent to the AI.
 - **Serious PDF.** Edit, fill forms, produce PDF/A and accessible PDF/UA (both checked with veraPDF), and sign with a qualified electronic signature (QES/КЕП) on your smart card.
 
 ## File formats
@@ -56,7 +56,7 @@ Runs on macOS 12+ and Windows 10+ (64-bit).
 
 Connect an AI assistant such as Claude and let it work on your documents through MCP. It reads, drafts and edits. AI is optional. In Claude Desktop, working on a folder, it starts read only: it can read your files but cannot save them. If you turn Read only off, or let it work in the open TEKSO window, it can change and save documents directly. In text documents you can ask for tracked changes and accept or reject them.
 
-- Passwords and PINs go only into TEKSO's own window. They never reach the AI.
+- TEKSO asks for passwords in its own window and does not send what you type there to the AI. Do not give passwords to the assistant.
 - A standalone `tekso-mcp` server and a `.mcpb` package are available for Claude Desktop.
 - AI can be wrong. Check what it changed.
 
@@ -151,7 +151,7 @@ hello@tekso.app · https://tekso.app
 - **Едно приложение, не пакет от сметки.** Текст, таблици, презентации и PDF на едно място. По-късно една малка годишна цена, а не отделни приложения с отделни цени.
 - **Твоите формати, не нашите.** Отваряй и записвай `.docx`, `.xlsx` и `.pptx`. Отваряй и `.odt`, `.ods` и `.odp` (`.odt` се записва обратно като `.odt`). Няма какво да се преобразува и никого не трябва да питаш. Пълният списък е в «Файлови формати» по-долу.
 - **Файловете остават твои.** Без акаунт. Без облак. Без телеметрия. Файловете напускат компютъра само ако сам ги дадеш на AI по свой избор. Приложението пита GitHub за нови версии и това може да се изключи.
-- **AI при твоите условия.** AI е по избор и е изключен, докато не го включиш. Паролите и PIN кодовете ти никога не стигат до AI.
+- **AI при твоите условия.** AI е по избор и е изключен, докато не го включиш. Парола или PIN, въведени в собствения прозорец на TEKSO, не се изпращат на AI.
 - **Сериозен PDF.** Редактиране, формуляри, PDF/A и достъпен PDF/UA (и двата проверени с veraPDF), и подпис с квалифициран електронен подпис (КЕП) от смарт карта.
 
 ## Файлови формати
@@ -194,7 +194,7 @@ hello@tekso.app · https://tekso.app
 
 Свържи AI асистент, например Claude, и му дай да работи по документите ти през MCP. Той чете, пише чернови и редактира. AI е по избор. В Claude Desktop, когато работи с папка, тръгва само за четене: чете файловете, но не може да ги записва. Ако изключиш „Read only“ или го пуснеш да работи в отворения прозорец на TEKSO, той може да променя и записва документите направо. В текстовите документи можеш да поискаш проследени промени и да ги приемеш или отхвърлиш.
 
-- Паролите и PIN кодовете се въвеждат само в собствения прозорец на TEKSO. Те никога не стигат до AI.
+- TEKSO иска паролите в собствен прозорец и не изпраща на AI въведеното там. Не давай пароли на асистента.
 - Налични са самостоятелен сървър `tekso-mcp` и пакет `.mcpb` за Claude Desktop.
 - AI може да греши. Проверявай какво е променил.
 

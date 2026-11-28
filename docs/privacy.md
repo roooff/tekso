@@ -20,6 +20,9 @@ TEKSO has no account, no cloud and no telemetry.
 - **Version history:** files named `<document>.tekso-versions` next to your documents.
 - **Recovery copies and TEKSO data:** the folder `~/.tekso` on macOS, and `%APPDATA%\TEKSO` on Windows.
 - **Settings:** stored on your computer by the app (such as theme and language).
+- **Template drafts:** in versions with form templates, what you type into a template is kept as a draft in the app folders listed below. It may contain personal data. A draft is removed when you create the document from it.
+
+TEKSO does not encrypt recovery copies, version history or drafts.
 
 ## Delete your data
 
@@ -28,7 +31,7 @@ TEKSO has no account, no cloud and no telemetry.
 3. Delete `*.tekso-versions` files next to documents if you no longer want the history.
 4. Uninstall the app: see [Install](install.md#uninstall).
 
-The system also keeps a few small app folders with interface settings (theme, language, window size). Delete them too for a complete removal:
+The system also keeps a few app folders with interface settings (theme, language, window size) and any template drafts. Delete them too for a complete removal:
 
 - **macOS:** `~/Library/WebKit/app.tekso`, `~/Library/Caches/app.tekso` and `~/Library/Preferences/app.tekso.plist`.
 - **Windows:** `%LOCALAPPDATA%\app.tekso`.

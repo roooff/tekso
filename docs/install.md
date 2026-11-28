@@ -2,7 +2,7 @@
 
 [Български](bg/install.md) · [Docs index](README.md)
 
-TEKSO 0.9.1 Preview runs on macOS 12 or later (Apple Silicon; an Intel build is not available yet) and Windows 10 or later (64-bit).
+TEKSO 0.9.2 Preview runs on macOS 12 or later (Apple Silicon; an Intel build is not available yet) and Windows 10 or later (64-bit).
 
 ## 1. Download
 
